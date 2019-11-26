@@ -1,0 +1,17 @@
+int a;
+real b;
+write("please input a:");
+read(a);
+write("please input b:");
+read(b);
+write("value a + b:");
+write(a+b);
+write("value a - b:");
+write(a - b);
+write("value a * b:");
+write(a * b);
+write("value a / b:");
+write(a / b);
+real c = (a+b)*b - a/b;
+write("value (a+b)*b - a/b:");
+write(c);

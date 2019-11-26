@@ -1,0 +1,12 @@
+int a = 5;
+int b = 5;
+if(a == b){
+    while(b>0){
+        a = a + 1;
+        b = b - 1;
+    }
+}else{
+    a = 10;
+}
+write(a);
+write(b);

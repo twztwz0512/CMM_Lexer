@@ -1,0 +1,13 @@
+bool arr[4];
+arr[0] = false;
+arr[1] = true;
+arr[2] = 5;
+arr[3] = 4 < 3;
+int i = 0;
+while(i<4){
+    write(arr[i]);
+    i = i + 1;
+}
+if(arr[2]){
+    write("arr[2] is true");
+}
